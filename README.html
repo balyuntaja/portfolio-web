@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>README - Portfolio Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 800px;
+      }
+      h1,
+      h2 {
+        color: #4a5568;
+      }
+      code {
+        background-color: #f7fafc;
+        padding: 2px 4px;
+        border-radius: 4px;
+        font-size: 1rem;
+      }
+      pre {
+        background-color: #f7fafc;
+        padding: 10px;
+        border-radius: 4px;
+        overflow-x: auto;
+      }
+      a {
+        color: #3182ce;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      img {
+        max-width: 100%;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Portfolio Website</h1>
+    <p>
+      Ini adalah repository untuk website portofolio pribadi saya. Dibangun
+      menggunakan <strong>Tailwind CSS</strong>, website ini dirancang untuk
+      menampilkan profil, pengalaman, dan proyek-proyek yang telah saya kerjakan
+      dengan gaya modern dan responsif.
+    </p>
+
+    <h2>🎨 Fitur Utama</h2>
+    <ul>
+      <li>
+        <strong>Desain Responsif:</strong> Website otomatis menyesuaikan
+        tampilannya pada berbagai perangkat (desktop, tablet, dan ponsel).
+      </li>
+      <li>
+        <strong>Efek Animasi:</strong> Menggunakan utility classes dari Tailwind
+        untuk animasi ringan dan interaksi pengguna.
+      </li>
+      <li>
+        <strong>Mudah Dikustomisasi:</strong> Memanfaatkan fleksibilitas
+        Tailwind CSS untuk memodifikasi gaya secara cepat.
+      </li>
+      <li>
+        <strong>Navigasi Sederhana:</strong> Menu yang intuitif untuk memudahkan
+        pengunjung menjelajahi website.
+      </li>
+    </ul>
+
+    <h2>🚀 Teknologi yang Digunakan</h2>
+    <ul>
+      <li>
+        <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>:
+        Framework CSS untuk membangun desain yang efisien dan konsisten.
+      </li>
+      <li>HTML5: Sebagai dasar struktur halaman web.</li>
+      <li>JavaScript: Untuk interaktivitas tambahan.</li>
+      <li>
+        DaisyUI <em>(Opsional):</em> Komponen berbasis Tailwind untuk desain
+        elemen UI.
+      </li>
+    </ul>
+
+    <h2>📂 Struktur Proyek</h2>
+    <pre>
+├── index.html      # Halaman utama portofolio
+├── style.css       # File CSS yang di-generate Tailwind
+├── tailwind.config.js # Konfigurasi Tailwind CSS
+├── assets/         # Folder untuk gambar, ikon, atau file lainnya
+├── scripts/        # File JavaScript untuk interaktivitas
+└── README.md       # Dokumentasi proyek
+    </pre>
+
+    <h2>📖 Cara Menjalankan Proyek</h2>
+    <ol>
+      <li>
+        <strong>Clone Repository</strong>
+        <pre><code>git clone https://github.com/username/portfolio-website.git
+cd portfolio-website</code></pre>
+      </li>
+      <li>
+        <strong>Instalasi Tailwind CSS</strong>
+        <p>Pastikan Node.js telah diinstal di komputer Anda.</p>
+        <pre><code>npm install</code></pre>
+      </li>
+      <li>
+        <strong>Generate File CSS</strong>
+        <p>Jalankan perintah berikut untuk mem-build file CSS dari Tailwind:</p>
+        <pre><code>npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch</code></pre>
+      </li>
+      <li>
+        <strong>Buka di Browser</strong>
+        <p>
+          Buka file <code>index.html</code> langsung di browser atau gunakan
+          ekstensi Live Server.
+        </p>
+      </li>
+    </ol>
+
+    <h2>💼 Tentang Saya</h2>
+    <p>
+      Website ini merupakan refleksi dari pengalaman dan keahlian saya. Silakan
+      kunjungi
+      <a href="https://linkedin.com/in/username" target="_blank">LinkedIn</a>
+      atau
+      <a href="https://github.com/username" target="_blank">GitHub</a> untuk
+      informasi lebih lanjut.
+    </p>
+
+    <h2>✨ Preview</h2>
+    <p>Berikut adalah contoh tampilan website:</p>
+    <img src="./assets/screenshot.png" alt="Screenshot Portfolio Website" />
+  </body>
+</html>
