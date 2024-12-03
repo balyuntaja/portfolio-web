@@ -1,25 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html'],
+  content: ["index.html"],
   theme: {
     container: {
       center: true,
-      padding: '16px',
+      padding: "16px",
     },
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
+        sans: ["Poppins", "sans-serif"],
       },
       colors: {
-        primary: '#78B3CE',
-        secondary: '#64748b',
-        dark: '#0f172a',
+        primary: "#78B3CE",
+        secondary: "#64748b",
+        dark: "#0f172a",
       },
       screens: {
-        '2xl': '1320px',
-      }
+        "2xl": "1320px",
+      },
     },
   },
-  plugins: [],
-}
-
+  plugins: [require("@tailwindcss/line-clamp")],
+};
