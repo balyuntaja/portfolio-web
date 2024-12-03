@@ -25,6 +25,7 @@ Ini adalah repository untuk website portofolio pribadi saya. Dibangun menggunaka
 ├── assets/         # Folder untuk gambar, ikon, atau file lainnya
 ├── scripts/        # File JavaScript untuk interaktivitas
 └── README.md       # Dokumentasi proyek
+```
 📖 Cara Menjalankan Proyek
 Clone Repository
 
