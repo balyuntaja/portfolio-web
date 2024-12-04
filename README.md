@@ -36,6 +36,7 @@ cd portfolio-website
 ```
 
 2. Instalasi Tailwind CSS
+
 Pastikan Node.js telah diinstal di komputer Anda.
 
 ```
@@ -43,6 +44,7 @@ npm install
 ```
 
 3. Generate File CSS
+
 Jalankan perintah berikut untuk mem-build file CSS dari Tailwind:
 
 ```
@@ -50,7 +52,9 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
 ```
 
 4. Buka di Browser
+
 Buka file index.html langsung di browser atau gunakan ekstensi Live Server.
 
 💼 Tentang Saya
+
 Website ini merupakan refleksi dari pengalaman dan keahlian saya. Silakan kunjungi LinkedIn atau GitHub untuk informasi lebih lanjut.
